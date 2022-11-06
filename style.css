@@ -1,0 +1,79 @@
+.wrapper {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border : solid 3px #ccc;
+    border-bottom: 10px solid #cfcfcf;
+    border-radius: 10px;
+    outline: none;
+    font-family: monospace;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+    box-shadow: 0px 5px 10px 0px #3a3a3a;
+    transition: all 0.6s cubic-bezier(.72,-0.1,.54,1);
+}
+
+textarea {
+    font-size: 16px;
+    box-shadow: inset 180px 180px 0px 180px #f3f2eb;
+    resize: none;
+    border: none;
+    border : solid 3px #ccc;
+    outline: none;
+    padding: 10px;
+    height: 135px;
+    border-bottom: 10px solid #cfcfcf;
+    border-radius: 10px;
+}
+
+.UwU {
+    text-align: center;
+    padding-bottom: 70px;
+    font-size: 75px;
+    color: #ffe1f0;
+    text-shadow: 0 0 10px #ffe1f0, 0 0 20px #ffe1f0, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    transition: all 0.6s cubic-bezier(.72,-0.1,.54,1);
+}
+
+.UwU:hover {
+    transform: scale(1.1);
+}
+
+.Watermark {
+    position: fixed;
+    margin: 10px;
+    bottom: 0;
+    left: 0;
+}
+
+input:hover,
+input:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.10em);
+    font-size: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(22, 22, 22);
+    font-family: monospace;
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
